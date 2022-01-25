@@ -17,7 +17,8 @@ Project is developed with:
 
 ## Architecture
 
-![Architecture](https://user-images.githubusercontent.com/16436690/144045246-7f71e872-1d42-4057-9d93-d314dd6b5dc7.png)
+![EV Charging Anomaly Detection](https://user-images.githubusercontent.com/16436690/151078560-3aee3e0c-7772-4743-a818-f996b5c985a6.png)
+
 
 ## Services
 * Kafka Streaming 
