@@ -1,4 +1,4 @@
-# EV-Charing-Station-Anomaly-Detection
+# EV-Charging-Station-Anomaly-Detection
 
 ## Table of contents
 * [General info](#general-info)
