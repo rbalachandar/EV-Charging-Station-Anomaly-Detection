@@ -1,0 +1,6 @@
+DELAY = 0.01
+NUM_PARTITIONS = 3
+OUTLIERS_THRESHOLD = 0.2
+KAFKA_BROKER = "localhost:9092"
+STREAM_TOPIC = "transactions"
+STREAM_CONSUMER_GROUP = "transactions"
