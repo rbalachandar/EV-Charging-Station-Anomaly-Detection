@@ -11,8 +11,8 @@
 * [Run](#run)
 
 ## General info
-Detecting anomalies in EV charging station is key to prevent loss of energy. In this project the EV usage anomaly is detected using Kafka streaming and RabbitMq services and Isolation Forest unsupervised learning method. The EV Charing Station KPIs (User, Meter Usage, Temperature, etc) are simulated using Kafka producer that produces real-time data stream from Adaptive Charging Network (ACN-Data) https://ev.caltech.edu/dataset. \
-Anomaly detection engine consumes the data and gives the anomaly score which is monitored through RabbitMQ Pub-Sub mechanism. 
+Detecting anomalies in EV charging station is key to prevent loss of energy. In this project the EV usage anomaly is detected using Kafka streaming and RabbitMq services and Extended/Isolation Forest unsupervised learning method. The EV Charing Station KPIs (kWh requested, kWh used, Charging duration) are simulated using Kafka producer that produces real-time data stream from Adaptive Charging Network (ACN-Data) https://ev.caltech.edu/dataset. \
+Anomaly detection engine consumes the data and gives the anomaly result which is appended to the data and forwarded using RabbitMQ Pub-Sub mechanism. 
 The detected anomaly can be alerted using email and dashboard notifications.
 	
 ## Technologies
