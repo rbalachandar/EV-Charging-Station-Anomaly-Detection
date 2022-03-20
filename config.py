@@ -1,6 +1,9 @@
+import os
+from os.path import join, dirname
+
 DELAY = 0.01
-NUM_PARTITIONS = 3
-OUTLIERS_THRESHOLD = 0.2
+OUTLIERS_THRESHOLD_PROBABILITY = 0.2
 KAFKA_BROKER = "localhost:9092"
-STREAM_TOPIC = "transactions"
-STREAM_CONSUMER_GROUP = "transactions"
+EV_STATION_TOPIC = "ev-station-data"
+EV_STATION_CONSUMER_GROUP = "ev-station-data"
+NUM_PARTITIONS = 3

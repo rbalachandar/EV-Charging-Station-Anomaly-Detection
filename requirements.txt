@@ -1,2 +1,9 @@
 scikit-learn==0.23.0
 confluent-kafka==1.7.0
+python-dotenv==0.17.1
+asyncio
+aiokafka
+pika
+matplotlib
+shap
+plotly
