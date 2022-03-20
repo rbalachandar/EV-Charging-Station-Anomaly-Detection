@@ -32,7 +32,7 @@ ev_data_frame = load_ev_data()
 if producer is not None:
     while True:
         for index, data in ev_data_frame.iterrows():
-        # Generate EV observations
+            # Generate EV observations
             record = data.to_json()
             #print(record)
             record = json.dumps(record).encode("utf-8")

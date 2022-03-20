@@ -44,13 +44,13 @@ async def initialize():
 
     await consumer.start()
 
-    c_task = loop.create_task(receive_message(consumer))
-    await c_task
+    consumer_task = loop.create_task(receive_message(consumer))
+    await consumer_task
     try:
         loop.run_forever()
     finally:
         await consumer.stop()
-        c_task.cancel()
+        consumer_task.cancel()
         loop.stop()
         loop.close()
 
