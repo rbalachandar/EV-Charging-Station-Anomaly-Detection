@@ -1,5 +1,5 @@
 '''
-Kafka Producer of EV Station Data
+Kafka Producer of EV Charging Station Data
 '''
 
 import json

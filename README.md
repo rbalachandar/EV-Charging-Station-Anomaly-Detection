@@ -62,10 +62,10 @@ Null/NA are dropped
 | 2 |  chargingDuration   | 11997 non-null | float64
 
 ## Anomaly Model Training
-Model parameters are tuned using GridSearchCV
+Model parameters are tuned using GridSearchCV.
 Both Isolation Forest and Extended Isolation Forest are trained and predicted. 
-Model is analyzed using SHAP values
-Python Notebook available in anomaly_detection folder
+Model is analyzed using SHAP values.
+Python Notebook available in anomaly_detection folder.
 ## Setup
 
 ```
@@ -93,7 +93,7 @@ $ bin/kafka-server-start.sh config/server.properties
 Start RabbitMq Server
 $ rabbitmq-server
 Start EV Station Data Producer
-$ python producer/ev_station.py
+$ python ev_charging_station/ev_station.py
 Start Anomaly Detector
 $ python anomaly-detection/anomaly_detection.py
 ```

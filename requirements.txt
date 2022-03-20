@@ -7,3 +7,7 @@ pika
 matplotlib
 shap
 plotly
+pandas
+numpy
+joblib
+pytest
