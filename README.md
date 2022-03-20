@@ -65,7 +65,8 @@ Null/NA are dropped
 Model parameters are tuned using GridSearchCV.\
 Both Isolation Forest and Extended Isolation Forest are trained and predicted. \
 Model is analyzed using SHAP values.\
-Python Notebook available in anomaly_detection folder.\
+Python Notebook available in anomaly_detection folder.
+
 ## Setup
 
 ```
