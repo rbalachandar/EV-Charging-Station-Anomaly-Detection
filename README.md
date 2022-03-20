@@ -61,7 +61,7 @@ Null/NA are dropped
 | 1 |  kWhRequested       | 11997 non-null | float64
 | 2 |  chargingDuration   | 11997 non-null | float64
 
-## Data Engineering
+## Anomaly Model Training
 Model parameters are tuned using GridSearchCV
 Both Isolation Forest and Extended Isolation Forest are trained and predicted. 
 Model is analyzed using SHAP values
